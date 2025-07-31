@@ -12,11 +12,11 @@ const ScheduleItem: FC<Props> = ({ time, text, color, special, onGiftClick }) =>
   return (
     <div className="relative flex items-start gap-4">
       {/* Time Bubble */}
-      <div className="min-w-[80px] text-center relative z-10">
-        <div className="bg-white text-black font-bold text-xs px-2 py-3 rounded-lg shadow-lg">
+      <div className="min-w-[100px] text-center relative z-10 bg-white rounded-2xl">
+        <div className="bg-white text-black font-bold text-xs px-4 py-3 rounded-lg shadow-lg">
           {time}
         </div>
-        <div className="w-4 h-4 bg-white absolute top-1/2 left-full transform -translate-y-1/2 -translate-x-1 rotate-45 shadow-md" />
+        <div className="w-3 h-3 bg-white absolute top-1/2 -right-2 transform -translate-y-1/2 -translate-x-1 rotate-45" />
       </div>
 
       {/* Event Box */}

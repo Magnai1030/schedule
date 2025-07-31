@@ -16,14 +16,8 @@ const GiftPopup: FC<GiftPopupProps> = ({ onClose, message }) => {
   }, []);
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
+    <div className="fixed inset-0 bg-black z-50 flex items-center justify-center" onClick={onClose}>
       <div className="bg-white rounded-xl p-6 shadow-xl animate-scale-in relative">
-        <button
-          className="absolute top-2 right-4 text-black text-xl font-bold"
-          onClick={onClose}
-        >
-          ×
-        </button>
         <p className="text-black font-semibold text-center text-lg">🎁 {message}</p>
       </div>
 

@@ -6,7 +6,7 @@ export const schedule = [
         text: "Багийн тэмцээн",
         color: "from-yellow-400 to-yellow-500",
         special: true,
-        giftMessage: "Water balloon"
+        giftMessage: "Canvas art"
     },
     { time: "13:00", text: "Өдрийн цай", color: "from-purple-500 to-fuchsia-500" },
     {
