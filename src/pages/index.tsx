@@ -13,10 +13,10 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white px-6 py-12">
+    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white px-6 py-20">
       <div className="max-w-3xl mx-auto space-y-6">
         <h1 className="text-6xl font-bold text-center mb-2">🐟   ЗАГАС 2025   🐟</h1>
-        <h1 className="text-1xl font-bold text-center mb-6 text-gray-400">Sat 09-10 Aug 2025</h1>
+        <h1 className="text-1xl font-bold text-center mb-20 text-gray-400">Sat 09-10 Aug 2025</h1>
 
         {schedule.map((item, i) => (
           <ScheduleItem
