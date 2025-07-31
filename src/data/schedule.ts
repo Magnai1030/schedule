@@ -25,9 +25,9 @@ export const schedule = [
         text: "Хорхог",
         color: "from-rose-500 to-red-500",
         special: true,
-        giftMessage: "Торхтой Draft beer"
+        giftMessage: "Торхтой Draft Chingis beer"
     },
-    { time: "16:30", text: "Хүчэт бөхийн барилдаан", color: "from-purple-500 to-purple-600" },
+    { time: "16:30", text: "Хүчит бөхийн барилдаан", color: "from-purple-500 to-purple-600" },
     { time: "19:00", text: "Оройн хоол", color: "from-sky-500 to-indigo-500" },
     { time: "20:00", text: "Багийн тэмцээн", special: true, giftMessage: "Аяыг таа", color: "from-blue-500 to-cyan-500" },
     {
